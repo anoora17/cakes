@@ -20,13 +20,13 @@
     var db = require("./app/models");
    // routes
     var routes = require('./app/routes/main.js');
-    var customer = require('./app/routes/customer')
+    var customer = require('./app/routes/customer') // to get the routs for customer module
 
 
 
      // Sets up the Express app to handle data parsing
              app.use(bodyParser.json());
-             app.use(bodyParser.urlencoded({ extended: true , deffaultLayout:' main'}));
+             app.use(bodyParser.urlencoded({ extended: true , defaultLayout:' main'}));
              app.use(bodyParser.text());
              app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 

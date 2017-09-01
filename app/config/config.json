@@ -3,7 +3,7 @@
 
     "username": "root",
     "password":"root",
-    "database": "passport",
+    "database": "cupcake_db",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
